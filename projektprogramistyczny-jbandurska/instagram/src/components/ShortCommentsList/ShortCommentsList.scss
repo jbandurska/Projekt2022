@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.short-comments-list {
+    li a {
+            display: inline;
+            width: min-content;
+    }
+
+    p {
+        text-align: center;
+        font-size: 0.8rem;
+        cursor: pointer;
+        color: $blue;
+        margin: 0;
+        padding: 0;
+    }
+}

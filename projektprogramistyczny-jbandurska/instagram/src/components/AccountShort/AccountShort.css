@@ -1,0 +1,52 @@
+.account-short {
+  padding: 10px;
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-decoration: none;
+  color: #333;
+  border-radius: 50px;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+  width: 360px;
+}
+
+.account-short img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.account-short div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 18px;
+}
+
+.account-short div .nick {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.account-short div .name {
+  font-size: 0.9rem;
+  color: gray;
+  margin-top: 2px;
+}
+
+.account-short:hover {
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=AccountShort.css.map */

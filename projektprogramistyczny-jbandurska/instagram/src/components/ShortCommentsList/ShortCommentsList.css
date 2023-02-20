@@ -1,0 +1,16 @@
+.short-comments-list li a {
+  display: inline;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.short-comments-list p {
+  text-align: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #0095f6;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=ShortCommentsList.css.map */

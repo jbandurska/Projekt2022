@@ -1,0 +1,142 @@
+.picture-modal {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1000px;
+  max-height: 600px;
+  margin: 25px;
+}
+
+.picture-modal > img {
+  max-height: 600px;
+  max-width: 600px;
+  height: 100%;
+  margin: auto 0;
+}
+
+.picture-modal .description {
+  font-size: 0.9rem;
+  padding: 20px 5px;
+}
+
+.picture-modal .description textarea {
+  resize: vertical;
+  outline: none;
+  max-height: 300px;
+}
+
+.picture-modal .icons svg {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.picture-modal .icons svg:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.picture-modal .picture-info {
+  padding: 20px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.picture-modal .picture-header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.picture-modal .account-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.picture-modal .likes {
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.picture-modal .buttons button {
+  background-color: white;
+  border: none;
+  margin: 5px;
+  color: #777;
+}
+
+.picture-modal .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 720px) {
+  .picture-modal {
+    font-size: .9rem;
+  }
+  .picture-modal > img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .picture-modal .account-picture {
+    width: 30px;
+    height: 30px;
+  }
+  .picture-modal .description {
+    font-size: .75rem;
+  }
+  .picture-modal .buttons button {
+    font-size: .7rem;
+  }
+  .picture-modal textarea {
+    font-size: .7rem;
+  }
+  .picture-modal .icons svg {
+    font-size: 1.2rem;
+  }
+  .picture-modal .likes {
+    font-size: 0.7rem;
+  }
+  .picture-modal .comment-form * {
+    font-size: 0.7rem;
+  }
+  .picture-modal .comments-list * {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=PictureModal.css.map */

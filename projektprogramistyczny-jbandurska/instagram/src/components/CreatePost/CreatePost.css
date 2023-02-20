@@ -1,0 +1,78 @@
+.create-post {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.create-post h3 {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.create-post .load-file {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.create-post .load-file form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.create-post .load-file form textarea {
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 0.9rem;
+  padding: 5px;
+  outline: none;
+}
+
+.create-post .load-file svg {
+  font-size: 5rem;
+  fill: #444;
+}
+
+.create-post .load-file .button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #0095f6;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  margin: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.create-post .load-file .button input {
+  display: none;
+}
+/*# sourceMappingURL=CreatePost.css.map */

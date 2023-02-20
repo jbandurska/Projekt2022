@@ -1,0 +1,43 @@
+.comment-form {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+
+.comment-form form {
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.comment-form input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+.comment-form button {
+  padding: 10px;
+  border: none;
+  margin: 0;
+  background-color: white;
+}
+
+.comment-form button svg {
+  fill: #333;
+}
+
+.comment-form button:hover svg {
+  fill: #555;
+}
+/*# sourceMappingURL=CommentForm.css.map */

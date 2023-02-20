@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,oBADgB,CAChB,EAAE,CAAC,CAAC,CAAC;EACG,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,WAAW;CACzB;;AAJL,AAMI,oBANgB,CAMhB,CAAC,CAAC;EACE,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,OAAO;EACf,KAAK,ECZN,OAAgB;EDaf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "ShortCommentsList.scss",
+        "../../variables.scss"
+    ],
+    "names": [],
+    "file": "ShortCommentsList.css"
+}

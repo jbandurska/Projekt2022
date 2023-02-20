@@ -1,0 +1,22 @@
+.followers-list {
+  background-color: white;
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.followers-list li {
+  padding: 5px;
+  min-width: 300px;
+}
+
+.followers-list li a {
+  text-decoration: none;
+}
+
+.followers-list li:hover {
+  background-color: #efefef;
+}
+/*# sourceMappingURL=FollowersList.css.map */

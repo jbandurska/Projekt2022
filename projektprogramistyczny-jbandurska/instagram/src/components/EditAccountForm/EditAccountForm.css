@@ -1,0 +1,109 @@
+.edit-account-form {
+  padding: 40px;
+}
+
+.edit-account-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.edit-account-form form label {
+  margin: 10px;
+}
+
+.edit-account-form form .small-p {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  font-size: 0.7rem;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.edit-account-form form input, .edit-account-form form textarea {
+  margin: 10px;
+  margin-left: 15px;
+  border: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.edit-account-form form input:focus, .edit-account-form form textarea:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+.edit-account-form form textarea {
+  resize: vertical;
+  font-size: 0.8rem;
+  min-height: 100px;
+}
+
+.edit-account-form form .button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #0095f6;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.edit-account-form form .delete-button {
+  color: #666;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.edit-account-form .reset-profile-picture-button {
+  color: #0095f6;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 800;
+  margin: -10px 50px 0 0;
+  border: none;
+}
+
+@media (max-width: 1440px) {
+  .edit-account-form form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .edit-account-form form .reset-profile-picture-button {
+    margin: -10px 0 0 0;
+  }
+  .edit-account-form form label {
+    text-align: center;
+  }
+  .edit-account-form form label > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .edit-account-form form input {
+    display: block;
+  }
+}
+/*# sourceMappingURL=EditAccountForm.css.map */

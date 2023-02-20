@@ -1,0 +1,61 @@
+.post-in-grid {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-in-grid .cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+  cursor: pointer;
+}
+
+.post-in-grid .cover span {
+  color: white;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+}
+
+.post-in-grid .cover:hover {
+  opacity: 100;
+}
+
+.post-in-grid svg {
+  fill: white;
+  margin-right: 5px;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 720px) {
+  .post-in-grid .cover span {
+    margin: 5px;
+    font-size: 1rem;
+  }
+  .post-in-grid svg {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=PostInGrid.css.map */

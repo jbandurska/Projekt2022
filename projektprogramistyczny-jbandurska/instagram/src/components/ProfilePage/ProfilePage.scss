@@ -1,0 +1,15 @@
+.profile-main {
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.profile-main-margin {
+    margin: 0 0 0 250px;
+
+    @media (max-width: 950px) {
+        margin: 0 0 0 60px;
+        padding: 0 20px;
+    }
+}

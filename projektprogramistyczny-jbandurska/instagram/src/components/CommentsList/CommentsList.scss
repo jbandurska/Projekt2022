@@ -1,0 +1,35 @@
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    li {
+        border-bottom: 1px solid rgb(230, 230, 230);
+        padding: 10px;
+        font-size: 0.9rem;
+        text-align: right;
+        word-break: break-word;
+
+        >div {
+            text-align: left;
+        }
+
+        button {
+            background-color: white;
+
+            svg {
+                fill: #777;
+            }
+        }
+    }
+
+    :last-child {
+        border: none;
+    }
+}

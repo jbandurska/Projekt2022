@@ -1,0 +1,70 @@
+.post {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .picture-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px;
+
+        .account-picture {
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+        }
+
+        span {
+            margin: 10px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+    }
+
+    .picture-bottom {
+        padding: 15px;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        
+        .icon {
+            margin-right: 5px;
+        }
+
+        .icon:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+
+    .likes {
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 15px;
+        padding-top: 5px;
+
+        span {
+            font-weight: bold;
+        }
+
+        a {
+            display: inline;
+        }
+    }
+}

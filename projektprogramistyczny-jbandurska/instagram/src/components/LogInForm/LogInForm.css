@@ -1,0 +1,144 @@
+body {
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.logInForm, .register {
+  padding: 30px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  margin: 10px auto;
+  border: 1px solid lightgrey;
+}
+
+.logInForm input, .register input {
+  display: block;
+  background-color: #fafafa;
+  border: none;
+  width: 100%;
+  border-radius: 2px;
+  padding: 5px;
+  color: #444;
+}
+
+.logInForm input:focus, .register input:focus {
+  outline: none;
+}
+
+.logInForm label, .register label {
+  background-color: #fafafa;
+  border: 1px solid lightgray;
+  border-bottom: none;
+  color: gray;
+  border-radius: 3px;
+  display: block;
+  width: 270px;
+  font-size: 0.7rem;
+  margin: 7px;
+  padding: 2px 5px;
+}
+
+.logInForm label:hover, .register label:hover {
+  cursor: text;
+}
+
+.logInForm img, .register img {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.logInForm .logging-message, .register .logging-message {
+  text-align: center;
+  margin: 7px auto;
+  padding: 5px;
+  color: #c60000;
+  font-size: 0.8rem;
+}
+
+.logInForm p, .register p {
+  margin: 0;
+  padding: 0;
+}
+
+.password-label {
+  position: relative;
+}
+
+.input-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: none;
+  background-color: #fafafa;
+  color: #333;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.input-button:hover {
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #0095f6;
+  width: 270px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  margin: 7px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.login-button:active {
+  background-color: #4cb5f9;
+}
+
+.register {
+  padding: 20px;
+  font-size: 0.95rem;
+}
+
+.register p {
+  text-align: center;
+}
+
+.link {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=LogInForm.css.map */

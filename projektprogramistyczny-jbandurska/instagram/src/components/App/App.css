@@ -1,0 +1,54 @@
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    position: relative;
+}
+
+#root {
+    width: 100%;
+    z-index: -1;
+}
+
+#root >div {
+    z-index: -1;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+html {
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable {
+    cursor: pointer;
+}

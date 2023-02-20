@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,QAAQ,EAAE,IAAI;EACd,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;CAMtB;;AAJG,MAAM,EAAE,SAAS,EAAE,KAAK;EAT5B,AAAA,WAAW,CAAC;IAUJ,QAAQ,EAAE,GAAG;IACb,OAAO,EAAE,KAAK;GAErB",
+    "sources": [
+        "PostsGrid.scss"
+    ],
+    "names": [],
+    "file": "PostsGrid.css"
+}

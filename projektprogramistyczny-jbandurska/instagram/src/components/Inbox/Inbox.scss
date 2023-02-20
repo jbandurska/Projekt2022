@@ -1,0 +1,141 @@
+@import "../../variables.scss";
+
+.inbox {
+    background-color: white;
+    border-radius: 5px;
+    height: 90%;
+    max-height: 90vh;
+    border: 1px solid lightgray;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+    .chats {
+        width: 35%;
+        border-right: 1px solid lightgray;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            a {
+                text-decoration: none;
+            }
+
+            li:hover {
+                background-color: #efefef;
+            }
+        }
+    }
+
+    .picture-header {
+        border-bottom: 1px solid lightgray;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        text-align: center;
+
+        img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+    .single-chat {
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .conversation {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        height: 100%;
+
+        .input {
+            justify-self: flex-end;
+            margin: auto 0 0 0;
+            padding: 10px;
+
+            input {
+                display: block;
+                outline: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                width: 90%;
+                margin: 0 auto;
+                border: 1px solid lightgray;
+            }
+        }
+ 
+        .message {
+            background-color: #efefef;
+            padding: 15px;
+            max-width: 60%;
+            border-radius: 25px;
+            margin: 10px;
+            width: fit-content;
+            word-break: break-word;
+        }
+        
+        .dots {
+            padding: 5px;
+            width: 50px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .messages {
+            overflow-y: auto;
+            height: 100%;
+
+
+            .right {
+                text-align: right;
+                margin-left: auto;
+                background-color: $blue;
+                color: white;
+                font-weight: 500;
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        .chats .single-chat {
+            justify-content: center;
+
+            span {
+                display: none;
+            }
+        }
+
+        .chats {
+            width: fit-content;
+        }
+
+        .conversation {
+            width: 100%;
+        }
+    }
+}
+
+.inbox-main {
+    align-items: center;
+}

@@ -1,0 +1,94 @@
+.edit-account-form {
+    padding: 40px;
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        width: 65%;
+        margin: 0 auto;
+
+        label {
+            margin: 10px;
+        }
+
+        .small-p {
+            color: gray;
+            padding: 0;
+            margin: 0;
+            font-size: 0.7rem;
+            text-align: center;
+            align-self: center;
+        }
+
+        input, textarea{
+            margin: 10px;
+            margin-left: 15px;
+            border: none;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: 5px 10px;
+            width: 200px;
+
+            &:focus {
+                outline: none;
+                border: 1px solid gray;
+            }
+        }
+
+        textarea {
+            resize: vertical;
+            font-size: 0.8rem;
+            min-height: 100px;
+        }
+
+        .button {
+            align-self: center;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(0, 149, 246);
+            font-weight: bold;
+            border: none;
+            font-size: 1rem;
+            margin-top: 30px;
+        }
+        .delete-button {
+            color: #666;
+            background-color: white;
+            font-weight: 500; 
+            cursor: pointer;           
+        }
+    }
+
+    .reset-profile-picture-button {
+        color: rgb(0, 149, 246);
+        border-radius: 5px;
+        background-color: white;
+        font-weight: 800;
+        margin: -10px 50px 0 0;
+        border: none;
+    }
+
+    @media (max-width: 1440px) {
+        form {
+            align-items: center;
+            width: 100%;
+
+            .reset-profile-picture-button {
+                margin: -10px 0 0 0;
+            }
+
+            label {
+                text-align: center;
+
+                >div {
+                    flex-direction: column;
+                }
+            }
+
+            input {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.picture-modal {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    max-height: 600px;
+    margin: 25px;
+
+    >img {
+        max-height: 600px;
+        max-width: 600px;
+        height: 100%;
+        margin: auto 0;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        padding: 20px 5px;
+
+        textarea {
+            resize: vertical;
+            outline: none;
+            max-height: 300px;
+        }
+    }
+
+    .icons svg {
+        font-size: 1.5rem;
+        margin: 5px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+
+    .picture-info {
+        padding: 20px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+        background-color: white;
+    }
+
+    .picture-header a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+
+    .account-picture {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .likes {
+        color: #333;
+        font-size: 0.8rem;
+    }
+
+    .buttons {
+
+        button {
+            background-color: white;
+            border: none;
+            margin: 5px;
+            color: #777;
+        }
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 720px) {
+        font-size: .9rem;
+        >img {
+            max-width: 300px;
+            max-height: 300px;
+        }
+        .account-picture {
+            width: 30px;
+            height: 30px;
+        }
+        .description {
+            font-size: .75rem;
+        }
+        .buttons button {
+            font-size: .7rem;
+        }
+        textarea {
+            font-size: .7rem;
+        }
+        .icons svg {
+            font-size: 1.2rem;
+        }
+        .likes {
+            font-size: 0.7rem;
+        }
+        .comment-form * {
+            font-size: 0.7rem;
+        }
+        .comments-list * {
+            font-size: 0.7rem;
+        }
+    }
+}

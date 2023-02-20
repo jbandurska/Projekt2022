@@ -1,0 +1,42 @@
+.under-logo-register-form {
+    font-size: 0.96rem;
+    margin-top: -30px;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.under-input-register-form {
+    font-size: 0.7rem;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.relative-label {
+    position: relative;
+    .invalid {
+        color: rgb(198, 0, 0);
+        font-size: 1.05rem;
+        cursor: default;
+    }
+    svg {
+        fill: red;
+    }
+}
+
+button:disabled {
+    cursor: default;
+    background-color: rgb(136, 207, 255);
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+

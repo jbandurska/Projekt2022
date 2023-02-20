@@ -1,0 +1,19 @@
+.posts-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 25px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 720px) {
+  .posts-grid {
+    grid-gap: 2px;
+    padding: 2px 0;
+  }
+}
+/*# sourceMappingURL=PostsGrid.css.map */

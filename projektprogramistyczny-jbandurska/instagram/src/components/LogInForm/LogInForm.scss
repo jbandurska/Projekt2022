@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(250,250,250);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.logInForm, .register {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 10px auto;
+    border: 1px solid lightgrey;
+    input {
+        display: block;
+        background-color: rgb(250,250,250);
+        border: none;
+        width: 100%;
+        border-radius: 2px;
+        padding: 5px;
+        color: #444;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    label {
+        background-color: rgb(250, 250, 250);
+        border: 1px solid lightgray;
+        border-bottom: none;
+        color: gray;
+        border-radius: 3px;
+        display: block;
+        width: 270px;
+        font-size: 0.7rem;
+        margin: 7px;
+        padding: 2px 5px;
+    }
+
+    label:hover {
+        cursor: text;
+    }
+
+    img {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .logging-message {
+        text-align: center;
+        margin: 7px auto;
+        padding: 5px;
+        color: rgb(198, 0, 0);
+        font-size: 0.8rem;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.password-label {
+    position: relative;
+}
+
+.input-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    color: #333;
+    font-weight: 500;
+    padding-right: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.login-button {
+    background-color: rgb(0, 149, 246);
+    width: 270px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 7px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    &:active {
+        background-color: rgb(76, 181, 249);
+    }
+}
+
+.register {
+    padding: 20px;
+    font-size: 0.95rem;
+
+    p {
+        text-align: center;
+    }
+}
+
+.link {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}

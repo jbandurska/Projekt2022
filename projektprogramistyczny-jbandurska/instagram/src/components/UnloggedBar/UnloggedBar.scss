@@ -1,0 +1,106 @@
+.unlogged-bar {
+    position: sticky;
+    right: 0;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    background-color: white;
+
+    img {
+        height: auto;
+        width: 180px;
+    }
+
+    .buttons-div {
+        width: 180px;
+        .button {
+            color: rgb(0, 149, 246);
+            padding: 6px 12px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 0 3px;
+            display: inline-block;
+        }
+    
+        .log-in-button {
+            background-color: rgb(0, 149, 246);
+            color: white;
+        }
+    }
+
+}
+
+.unlogged-bar-inner {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    height: 60px;
+
+    input {
+        background-color: rgb(239,239,239);
+        border: none;
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 300px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .relative-label {
+        position: relative;
+
+        .relative-button-div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .relative-button {
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.25);
+            color: white;
+            border: none;
+            margin-right: 10px;
+            font-size: 0.7rem;
+            width: 0.7rem;
+            height: 0.7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .search-bar-drop {
+        position: absolute;
+        width: 300px;
+        top: 60px;
+        left: calc(50% - 150px);
+        
+        ul {
+            background-color: white;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 10px;
+            border-top: 1px solid lightgray;
+            box-shadow: 0px 5px 10px 0px #bbb;
+            overflow-y: hidden;
+
+            img {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}

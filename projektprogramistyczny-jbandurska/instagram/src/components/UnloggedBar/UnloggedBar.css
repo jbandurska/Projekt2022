@@ -1,0 +1,127 @@
+.unlogged-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  background-color: white;
+}
+
+.unlogged-bar img {
+  height: auto;
+  width: 180px;
+}
+
+.unlogged-bar .buttons-div {
+  width: 180px;
+}
+
+.unlogged-bar .buttons-div .button {
+  color: #0095f6;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 3px;
+  display: inline-block;
+}
+
+.unlogged-bar .buttons-div .log-in-button {
+  background-color: #0095f6;
+  color: white;
+}
+
+.unlogged-bar-inner {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  height: 60px;
+}
+
+.unlogged-bar-inner input {
+  background-color: #efefef;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.unlogged-bar-inner input:focus {
+  outline: none;
+}
+
+.unlogged-bar-inner .relative-label {
+  position: relative;
+}
+
+.unlogged-bar-inner .relative-label .relative-button-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.unlogged-bar-inner .relative-label .relative-button {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  border: none;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.unlogged-bar-inner .search-bar-drop {
+  position: absolute;
+  width: 300px;
+  top: 60px;
+  left: calc(50% - 150px);
+}
+
+.unlogged-bar-inner .search-bar-drop ul {
+  background-color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  border-top: 1px solid lightgray;
+  -webkit-box-shadow: 0px 5px 10px 0px #bbb;
+          box-shadow: 0px 5px 10px 0px #bbb;
+  overflow-y: hidden;
+}
+
+.unlogged-bar-inner .search-bar-drop ul img {
+  height: 40px;
+  width: 40px;
+}
+/*# sourceMappingURL=UnloggedBar.css.map */

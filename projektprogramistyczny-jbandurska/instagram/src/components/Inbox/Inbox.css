@@ -1,0 +1,171 @@
+.inbox {
+  background-color: white;
+  border-radius: 5px;
+  height: 90%;
+  max-height: 90vh;
+  border: 1px solid lightgray;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.inbox .chats {
+  width: 35%;
+  border-right: 1px solid lightgray;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.inbox .chats ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inbox .chats ul a {
+  text-decoration: none;
+}
+
+.inbox .chats ul li:hover {
+  background-color: #efefef;
+}
+
+.inbox .picture-header {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inbox .picture-header img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.inbox .picture-header a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.inbox .single-chat {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 10px;
+}
+
+.inbox .conversation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65%;
+  height: 100%;
+}
+
+.inbox .conversation .input {
+  justify-self: flex-end;
+  margin: auto 0 0 0;
+  padding: 10px;
+}
+
+.inbox .conversation .input input {
+  display: block;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.inbox .conversation .message {
+  background-color: #efefef;
+  padding: 15px;
+  max-width: 60%;
+  border-radius: 25px;
+  margin: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  word-break: break-word;
+}
+
+.inbox .conversation .dots {
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.inbox .conversation .messages {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.inbox .conversation .messages .right {
+  text-align: right;
+  margin-left: auto;
+  background-color: #0095f6;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .inbox .chats .single-chat {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inbox .chats .single-chat span {
+    display: none;
+  }
+  .inbox .chats {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .inbox .conversation {
+    width: 100%;
+  }
+}
+
+.inbox-main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Inbox.css.map */

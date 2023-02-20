@@ -1,0 +1,16 @@
+GET https://localhost:8000/users/key/_u
+
+###
+
+GET https://localhost:8000/users/new_user
+
+###
+
+PUT https://localhost:8000/users/new_user
+Content-Type: application/json
+
+{
+    "fullname": "Anna Kowalska",
+    "bio": "My new bio",
+    "username": "better nick"
+}

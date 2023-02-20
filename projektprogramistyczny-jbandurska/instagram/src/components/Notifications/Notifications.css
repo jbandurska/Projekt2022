@@ -1,0 +1,71 @@
+.notifications {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.notifications h2 {
+  margin: 20px;
+}
+
+.notifications ul {
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin: 0;
+}
+
+.notifications ul > :first-child {
+  border-bottom: 1px solid lightgray;
+}
+
+.notifications li {
+  padding: 15px;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notifications li:hover {
+  background-color: #efefef;
+}
+
+.notifications li img {
+  height: 40px;
+  width: 40px;
+}
+
+.notifications li span {
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  font-size: .95rem;
+}
+
+.notifications li a {
+  padding: 0;
+  margin: 0;
+}
+
+.notifications li a img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Notifications.css.map */

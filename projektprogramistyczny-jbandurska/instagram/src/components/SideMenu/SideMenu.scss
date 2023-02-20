@@ -1,0 +1,135 @@
+.side-menu {
+    width: 250px;
+    overflow: hidden;
+    border-right: 1px solid lightgray;
+    height: 100%;
+    background-color: white;
+    padding: 20px 7px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    transition: width ease-in-out 0.5s;
+    z-index: 2;
+
+    .logo {
+        transition: opacity ease-in-out .4s;
+        height: 60px;
+        width: auto;
+        margin: 0 0 20px 20px;
+        opacity: 1;
+    }
+
+    .logo-unwind {
+        opacity: 0;
+    }
+
+    .profile-picure-side-menu {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin: 0;
+        margin-right: 15px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+
+        li:last-child {
+            margin-top: auto;
+        }
+
+        li {
+            border-radius: 50px;
+            width: 235px;
+            padding: 12px 8px;
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            font-size: 1.1rem;
+            transition: .1s linear;
+            height: 51px;
+
+            .icon {
+                font-size: 1.5rem;
+                margin-right: 15px;
+                width: 30px;
+                border-radius: 50px;
+            }
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        li:hover {
+            background-color: #efefef;
+            cursor: pointer;
+        }
+
+        .unhovery:hover {
+            background-color: white;
+        }
+
+        li:hover .icon,
+        li:hover .profile-picure-side-menu {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.side-menu-unwind {
+    width: 60px;
+}
+
+.link-sidemenu {
+    text-decoration: none;
+}
+
+.side-menu-wrapper {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.pullout-elem {
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    border-right: 1px solid lightgray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: width ease-in-out 0.6s;
+    text-align: center;
+    display: flex;
+}
+
+.pullout-elem-unwind {
+    width: 350px;
+}
+
+@media (max-width: 950px) {
+    .side-menu {
+        width: 60px;
+
+        ul li:hover {
+            background-color: white;
+        }
+
+        .logo {
+            opacity: 0;
+        }
+    }
+}
